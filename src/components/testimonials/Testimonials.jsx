@@ -51,9 +51,9 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
-      <h2>Testimonials</h2>
-      <Swiper 
+      {/* <h5>Feedback from my peers</h5>
+      <h2>Testimonials</h2> */}
+      {/* <Swiper 
         className="container testimonials__container"
         modules={[Pagination]}
         spaceBetween={40}
@@ -67,11 +67,11 @@ const Testimonials = () => {
               <BsLinkedin />
             </a>
           </div>
-          <h5 className='client__name'>{test.name}</h5>
-          <small className="client__review">{test.test}</small>
+          <h5 className='client__name'></h5>
+          <small className="client__review"></small>
         </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
     </section>
   )
 }

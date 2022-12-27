@@ -1,8 +1,8 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
+import IMG1 from '../../assets/Simply_Food.png';
+import IMG2 from '../../assets/dog_log.png';
 import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
+import IMG4 from '../../assets/DH2.png';
 import IMG5 from '../../assets/news.png';
 import IMG6 from '../../assets/math.png';
 
@@ -11,64 +11,35 @@ import './portfolio.css';
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 3,
+      title: 'Dog Log',
+      img: IMG2,
+      description: 'Dog care app that helps families make sure their dogs are being properly taken care off',
+      technologies: 'React | Express | Node.js | MySQL',
+      link: 'https://www.youtube.com/watch?v=v8_-76SBdFk',
+      github: 'https://github.com/Aron400/Dog-Log',
+    },
+    {
       id: 1,
-      title: 'Bookstore',
+      title: 'Simply Food',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
-      technologies: 'React | Redux | Ruby on Rails',
-      link: 'https://melodic-boba-111583.netlify.app/',
-      github: 'https://github.com/Meri-MG/bookstore---react',
+        'Recipe app that allows users to find new recipes by searching ingredients and get nutrition information',
+      technologies: 'Javascript | HTML | CSS',
+      link: 'https://www.youtube.com/watch?v=yKc4GMLBH50',
+      github: 'https://github.com/Aron400/Simply-Food',
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'Diamon Hands',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
+        'Fun budgetting app that allows users to track daily, monthly and yearly budgetting with visual status updates',
       technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+      link: 'https://www.youtube.com/watch?v=Ihr8YKtd72Q',
+      github: 'https://github.com/Aron400/Diamond-Hands',
     },
-    {
-      id: 3,
-      title: 'To-Do-App',
-      img: IMG2,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
-    },
-    {
-      id: 4,
-      title: 'Shelter',
-      img: IMG3,
-      description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
-    },
-    {
-      id: 5,
-      title: 'World News',
-      img: IMG5,
-      description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
-    },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+    
   ];
 
   return (

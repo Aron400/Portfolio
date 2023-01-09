@@ -15,8 +15,8 @@ const Portfolio = () => {
       title: 'Dog Log',
       img: IMG2,
       description: 'Dog care app that helps families make sure their dogs are being properly taken care off',
-      technologies: 'React | Express | Node.js | MySQL',
-      link: 'https://www.youtube.com/watch?v=v8_-76SBdFk',
+      technologies: 'React | CSS | Express | Node.js | MySQL',
+      link: 'https://youtu.be/03YGqH05HGk',
       github: 'https://github.com/Aron400/Dog-Log',
     },
     {
@@ -25,8 +25,8 @@ const Portfolio = () => {
       img: IMG1,
       description:
         'Recipe app that allows users to find new recipes by searching ingredients and get nutrition information',
-      technologies: 'Javascript | HTML | CSS',
-      link: 'https://www.youtube.com/watch?v=yKc4GMLBH50',
+      technologies: 'Javascript | jQuery | HTML | CSS',
+      link: 'https://youtu.be/mdCewlE3MfY',
       github: 'https://github.com/Aron400/Simply-Food',
     },
     {
@@ -35,8 +35,8 @@ const Portfolio = () => {
       img: IMG4,
       description:
         'Fun budgetting app that allows users to track daily, monthly and yearly budgetting with visual status updates',
-      technologies: 'React | Redux',
-      link: 'https://www.youtube.com/watch?v=Ihr8YKtd72Q',
+      technologies: 'React | Redux | CSS',
+      link: 'https://youtu.be/TospZOCRUig',
       github: 'https://github.com/Aron400/Diamond-Hands',
     },
     
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 className="btn btn-primary"
                 rel="noreferrer"
               >
-                Visit Website
+                Video
               </a>
             </div>
           </article>

@@ -38,6 +38,7 @@ const Portfolio = () => {
       technologies: 'React | Redux | CSS',
       link: 'https://youtu.be/TospZOCRUig',
       github: 'https://github.com/Aron400/Diamond-Hands',
+      site: 'https://gregarious-speculoos-c410a4.netlify.app/'
     },
     
   ];
@@ -70,10 +71,18 @@ const Portfolio = () => {
               <a
                 href={pro.link}
                 target="_blank"
-                className="btn btn-primary"
+                className="btn"
                 rel="noreferrer"
               >
                 Video
+              </a>
+              <a
+                href={pro.site}
+                target="_blank"
+                className="btn"
+                rel="noreferrer"
+              >
+                Site
               </a>
             </div>
           </article>

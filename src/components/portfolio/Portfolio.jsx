@@ -47,7 +47,7 @@ const Portfolio = () => {
       description:
         'Fun recipe app that helps users find new random ways to make aburrito based on ingredients available.',
       technologies: 'React | CSS',
-      github: 'https://github.com/Aron400/burrito-loc',
+      github: 'https://github.com/Aron400/burrito-loco',
       site: 'https://burritoloco.netlify.app/'
     },
     

@@ -3,7 +3,7 @@ import IMG1 from '../../assets/Simply_Food.png';
 import IMG2 from '../../assets/dog_log.png';
 import IMG3 from '../../assets/shelter.png';
 import IMG4 from '../../assets/DH2.png';
-import IMG5 from '../../assets/news.png';
+import IMG5 from '../../assets/burrito_loco.png';
 import IMG6 from '../../assets/math.png';
 
 import './portfolio.css';
@@ -39,6 +39,16 @@ const Portfolio = () => {
       link: 'https://youtu.be/TospZOCRUig',
       github: 'https://github.com/Aron400/Diamond-Hands',
       site: 'https://gregarious-speculoos-c410a4.netlify.app/'
+    },
+    {
+      id: 4,
+      title: 'Burrito Loco',
+      img: IMG5,
+      description:
+        'Fun recipe app that helps users find new random ways to make aburrito based on ingredients available.',
+      technologies: 'React | CSS',
+      github: 'https://github.com/Aron400/burrito-loc',
+      site: 'https://burritoloco.netlify.app/'
     },
     
   ];

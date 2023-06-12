@@ -11,6 +11,16 @@ import './portfolio.css';
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 4,
+      title: 'Burrito Loco',
+      img: IMG5,
+      description:
+        'Fun recipe app that helps users find new random ways to make a burrito based on ingredients available.',
+      technologies: 'React | CSS',
+      github: 'https://github.com/Aron400/burrito-loco',
+      site: 'https://burritoloco.netlify.app/'
+    },
+    {
       id: 3,
       title: 'Dog Log',
       img: IMG2,
@@ -29,28 +39,17 @@ const Portfolio = () => {
       link: 'https://youtu.be/mdCewlE3MfY',
       github: 'https://github.com/Aron400/Simply-Food',
     },
-    {
-      id: 2,
-      title: 'Diamon Hands',
-      img: IMG4,
-      description:
-        'Fun budgetting app that allows users to track daily, monthly and yearly budgetting with visual status updates',
-      technologies: 'React | Redux | CSS',
-      link: 'https://youtu.be/TospZOCRUig',
-      github: 'https://github.com/Aron400/Diamond-Hands',
-      site: 'https://gregarious-speculoos-c410a4.netlify.app/'
-    },
-    {
-      id: 4,
-      title: 'Burrito Loco',
-      img: IMG5,
-      description:
-        'Fun recipe app that helps users find new random ways to make aburrito based on ingredients available.',
-      technologies: 'React | CSS',
-      github: 'https://github.com/Aron400/burrito-loco',
-      site: 'https://burritoloco.netlify.app/'
-    },
-    
+    // {
+    //   id: 2,
+    //   title: 'Diamon Hands',
+    //   img: IMG4,
+    //   description:
+    //     'Fun budgetting app that allows users to track daily, monthly and yearly budgetting with visual status updates',
+    //   technologies: 'React | Redux | CSS',
+    //   link: 'https://youtu.be/TospZOCRUig',
+    //   github: 'https://github.com/Aron400/Diamond-Hands',
+    //   site: 'https://gregarious-speculoos-c410a4.netlify.app/'
+    // },    
   ];
 
   return (
